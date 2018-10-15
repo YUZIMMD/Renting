@@ -8,7 +8,7 @@ $('#submit').click(function(){
      console.log(data1);
      var data2 = JSON.stringify(data1);
      console.log(data2);
-$.post('zhuce1.php',{"data":data2},function(data,status){
+$.post('register1.php',{"data":data2},function(data,status){
     if(status=='success'){
 		  var res  = JSON.parse(data);
 		  if(res.code==0){

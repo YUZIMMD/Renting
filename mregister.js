@@ -6,7 +6,7 @@
      console.log(data1);
      var data2 = JSON.stringify(data1);
      console.log(data2);
-$.post('mzhuce.php',{"data":data2},function(data,status){
+$.post('mregistere.php',{"data":data2},function(data,status){
     if(status=='success'){
 		  var res  = JSON.parse(data);
 		  if(res.code==0){
