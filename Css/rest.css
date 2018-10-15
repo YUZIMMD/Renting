@@ -1,0 +1,177 @@
+/* CSS Document */
+/*控制链接字体颜色和鼠标移动颜色*/
+a:link{
+font:12px;
+color: #003366;
+text-decoration: none;
+}
+a:visited
+{
+color:#003366;
+text-decoration: none;
+} 
+a:hover{
+color:#F30;
+text-decoration: underline;
+}
+a:active{
+color:#F30;
+text-decoration: underline;}
+
+/*导航下拉菜单效果*/
+
+*{margin:0;padding:0;list-style-type:none;}
+a,img{border:0;}
+/* Clearing floats */
+.cf:before,.cf:after{content:" ";display:table;}
+.cf:after{clear:both;}
+.cf{*zoom:1;}
+/* Main level */
+.menu{
+	margin:50px auto;
+	width:1024px;
+	width:-moz-fit-content;
+	width:-webkit-fit-content;
+	width:fit-content;
+}
+.menu > li{
+	background:#34495e;
+	float:left;
+	position:relative;
+	transform:skewX(25deg);
+}
+.menu a{
+	display:block;
+	text-align:center;
+	color:#fff;
+	text-transform:uppercase;
+	text-decoration:none;
+	font-family:Arial, Helvetica;
+	font-size:14px;
+}
+.menu li:hover{
+	background:#e74c3c;
+}
+.menu > li > a{
+	transform:skewX(-25deg);
+	padding:1em 2em;
+}
+/* Dropdown */
+.submenu{
+	position:absolute;
+	width:200px;
+	left:50%;
+	margin-left:-100px;
+	transform:skewX(-25deg);
+	transform-origin:left top;
+}
+.submenu li{
+	background-color:#34495e;
+	position:relative;
+	overflow:hidden;
+}
+.submenu > li > a{
+	padding:1em 2em;
+}
+.submenu > li::after{
+	content:'';
+	position:absolute;
+	top:-125%;
+	height:100%;
+	width:100%;
+	box-shadow:0 0 50px rgba(0, 0, 0, .9);
+}
+/* Odd stuff */
+.submenu > li:nth-child(odd){
+	transform:skewX(-25deg) translateX(0);
+}
+.submenu > li:nth-child(odd) > a{
+	transform:skewX(25deg);
+}
+.submenu > li:nth-child(odd)::after{
+	right:-50%;
+	transform:skewX(-25deg) rotate(3deg);
+}
+/* Even stuff */
+.submenu > li:nth-child(even){
+	transform:skewX(25deg) translateX(0);
+}
+.submenu > li:nth-child(even) > a{
+	transform:skewX(-25deg);
+}
+.submenu > li:nth-child(even)::after{
+	left:-50%;
+	transform:skewX(25deg) rotate(3deg);
+}
+/* Show dropdown */
+.submenu,  .submenu li{
+	opacity:0;
+	visibility:hidden;
+}
+.submenu li{
+	transition:.2s ease transform;
+}
+.menu > li:hover .submenu,  .menu > li:hover .submenu li{
+	opacity:1;
+	visibility:visible;
+}
+.menu > li:hover .submenu li:nth-child(even){
+	transform:skewX(25deg) translateX(15px);
+}
+.menu > li:hover .submenu li:nth-child(odd){
+	transform:skewX(-25deg) translateX(-15px);
+}
+.de1{
+	position:absolute;
+	z-index:-1;
+	top:-100px;
+	}
+#form1 table tr td table tr td {
+	color: #FFF;
+}
+
+
+#form1 table tr td {
+	font-family: "方正姚体";
+}
+.de2{
+	font-size:24px;
+	
+	}
+	span{
+		color:#df7a29;
+		font-size:24px;
+		}
+		
+		*{margin:0; padding:0; list-style:none; }
+		img{ border:0;  }
+		a{ text-decoration:none; color:#333;  }
+		/* 本例子css */
+		.picScroll-left{ width:1200px;  overflow:hidden; position:relative;  border:1px solid #ccc; height: 280px; margin: auto auto; top: 30px;}
+		.picScroll-left .hd{ overflow:hidden;  height:30px; background:#f4f4f4; padding:0 10px;  }
+		.picScroll-left .hd .prev,.picScroll-left .hd .next{ display:block;  width:5px; height:9px; float:right; margin-right:5px; margin-top:10px;  overflow:hidden;
+			 cursor:pointer; no-repeat;}
+		.picScroll-left .hd .next{ background-position:0 -50px;  }
+		.picScroll-left .hd .prevStop{ background-position:-60px 0; }
+		.picScroll-left .hd .nextStop{ background-position:-60px -50px; }
+		.picScroll-left .hd ul{ float:right; overflow:hidden; zoom:1; margin-top:10px; zoom:1; }
+		.picScroll-left .hd ul li{ float:left;  width:9px; height:9px; overflow:hidden; margin-right:5px; text-indent:-999px;             cursor:pointer; background:url(../image/icoCircle.gif) no-repeat; }
+		.picScroll-left .hd ul li.on{ background-position:0 0; }
+		.picScroll-left .hd img {margin-top: 5px;}
+		.picScroll-left .bd{ padding:10px;}
+		.picScroll-left .bd ul{ overflow:hidden; zoom:1; }
+		.picScroll-left .bd ul li{ margin:0 8px; float:left; _display:inline; overflow:hidden; text-align:center;  }
+		.picScroll-left .bd ul li .pic{ text-align:center; }
+		.picScroll-left .bd ul li .pic img{ width:272px; height:180px; display:block;  padding:2px; border:1px solid #ccc; }
+		.picScroll-left .bd ul li .pic a:hover img{ border-color:#999;  }
+		.picScroll-left .bd ul li .title{ line-height:24px; text-align: left; font-size: 14px; font-family: "微软雅黑"; text-indent: 5px;}
+        .picScroll-left .bd ul li .title p {color:#bf283e;}
+		
+		
+		#tabbox{ width: 300px; height: 200px; position: relative;} 
+.imgbg{width: 300px; height: 200px; top: 0; left: 0; position: absolute; background:#CCC;  opacity:0;filter(alpha=0)} 
+.imgbg:hover{ opacity:0.5;filter(alpha=50)} 
+  
+#form1 table tr td table tr td p {
+	color: #000;
+}

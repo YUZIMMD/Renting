@@ -1,0 +1,239 @@
+﻿/* reset */
+/* house页图片的样式 */
+.house1{
+	font-size:100px;
+	}
+    * { margin: 0; padding: 0;}
+body { background-color: #eee;}
+.gallery { width: 610px; margin: 0 auto;}
+.gallery img { display: block;}
+.main-image img { padding: 4px; border: 1px solid #ccc; background-color: #fff;}
+.thumbnails { height: 63px; margin: 15px 0 0 -15px; list-style-type: none;}
+.thumbnails li { float: left; margin-left: 15px; display: inline;}
+.thumbnails img { padding: 4px; border: 1px solid #ccc; background-color: #fff;}
+
+html, body, ul, ol, li, dl, dt, dd,pre, form, p, input,footer, header,td {
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, pre, code, address, caption, cite, code, em, th,
+	figcaption,i {
+	font-weight: normal;
+	font-style: normal;
+}
+
+ul {
+	list-style: none outside;
+}
+
+article, aside, footer, header, hgroup, nav, section, figure, figcaption,
+	details, summary {
+	display: block;
+}
+
+img, a img {
+	border: none;
+}
+
+a {
+	text-decoration: none;
+	color: #999;
+	outline: none; 
+}
+
+body {
+	
+    -moz-box-sizing:border-box; /* Firefox */
+	font: 12px arial,'\5FAE\8F6F\96C5\9ED1', 'Hiragino Sans GB', Verdana;
+	color: #333;
+}
+
+button::-moz-focus-inner {  border:none; } /* ::-moz-focus-inner无边框*/
+
+
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
+.block{
+	display:block;
+	vertical-align: top;
+}
+.inline-block{
+	display:inline-block;
+	vertical-align: top;
+	*display: inline;
+    *zoom: 1; 
+}
+.ml {
+    margin-left: 0px;
+}
+.mr {
+	margin-right: 0px;;
+}
+.table,
+.font1{
+	color:#333;
+}
+.font2{
+	color:#555;
+}
+.font3{
+	color:#666;
+}
+.font4{
+	color:#999;
+}
+.font5{
+    color:#e6e6e6;
+}
+.font6 {
+    color:#ccc;
+}
+.font-red{
+	color:#e94643;
+}
+.font-black{
+	color:#0d0409;
+}
+.font-white{
+	color:#fff;
+}
+.font-blue{
+	color:#0099e5;
+}
+.font-bd{
+	color: #00bdd5;
+}
+.font-ublack {
+	color:#040000;
+}
+.font-ufblack {
+	color:#282522;
+}
+
+.font-size0{
+    font-size:12px;
+	font-weight: 400;
+}
+.font-size1{
+    font-size:13px;
+	font-weight: 400;
+}
+.font-size2{
+    font-size:14px;
+	font-weight: 400;
+}
+.font-size3{
+    font-size:16px;
+	font-weight: 400;
+}
+.font-size4{
+    font-size:18px;
+	font-weight: 400;
+}
+.font-size5{
+    font-size:20px;
+	font-weight: 400;
+}
+.font-size6{
+    font-size:22px;
+	font-weight: 400;
+}
+.font-size7{
+    font-size:24px;
+	font-weight: 400;
+}
+.font-size8{
+    font-size:26px;
+	font-weight: 400;
+}
+/*浮动清除*/
+.clearfix{
+	*display:inline-block;
+	*display:block;
+	*zoom:1;
+}
+.clearfix:after{
+    content:".";
+	visibility:hidden;
+	display:block;
+	height:0;
+	clear:both;	
+}
+
+.dib-wrap {
+	font-size:0;/* 所有浏览器 */
+	*word-spacing:-1px;/* IE6、7 */
+}
+.dib-wrap .dib{
+	
+	letter-spacing: normal;
+	word-spacing: normal;
+	vertical-align:top;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0){
+	/* firefox 中 letter-spacing 会导致脱离普通流的元素水平位移 */
+	.dib-wrap{
+letter-spacing:-5px;/* Safari 等不支持字体大小为 0 的浏览器, N 根据父级字体调节*/
+	}
+}
+.dib {
+	vertical-align: top;
+	display: inline-block;
+	*display:inline;
+	*zoom:1;
+}
+.none{
+	display: none;
+}
+.hidden{
+	visibility: hidden;
+}
+div.nohidden{
+	overflow: inherit;
+}
+.btn{
+	height: 41px;
+	color: #fff;
+	background-color: #00bdd5;
+	border-radius: 5px;
+	outline: none;
+	border: 1px solid #00bdd5;	
+	box-shadow: 0  2px 2px #d4d4d4;
+	font-size: 16px;
+	cursor: pointer;
+}
+.login-btn:hover{
+	background-color: #00cbe5;
+}
+.login-btn {
+	width: 280px;
+}
+.dib{
+	font-size: 14px;
+}
+.xuzhi{
+	position: relative;
+	text-align: center;
+	top: 100px;
+	left: 100px;
+	font-size: 16px;
+	font-weight: bold;
+	background-color: #A6C2D8;
+	width: 80%;
+	}
+	.result{
+		padding:0px;
+		margin:0px;
+		position:relative;
+		width:90%;
+		height:100%;
+		left:70px;
+		top:20px;
+		background-color:#FFF;
+		
+		}

@@ -1,0 +1,77 @@
+﻿.r-sidebar{
+    position: fixed;
+    right: 0;
+    top:0;
+    z-index: 9;
+    width: 30px;
+    height: 100%;
+    background-color: #ddd;
+    padding-top: 45px;
+}
+.rbar-item{
+    position: relative;
+    height: 30px;
+    width: 30px;
+    display: block;
+}
+.rbar-a{
+    width: 30px;
+    height: 30px;
+    display: block;
+    background-color: #b7b7b7;
+}
+.rbar-item:hover .rbar-a{
+     background-color: #00cbe5;
+ }
+.rbar-a .rbar-icon{
+    width: 30px;
+    height: 30px;
+    display: block;
+    background: url(../Images/rsidebar.png) no-repeat ;
+}
+
+.rbar-qq .rbar-icon{
+    background-position: -120px 0;
+}
+.rbar-feedback .rbar-icon{
+    background-position: -150px 0;
+}
+.rbar-gotop .rbar-icon{
+    background-position: -180px 0;
+}
+.rbar-footer{
+    position: absolute;
+    bottom: 80px;
+}
+.rbar-text , .rbar-img{
+    position: absolute;
+    right: 70px;
+    top: 0;
+    width: 108px;
+    padding: 5px;
+    text-align: center;
+    background-color: #fffef5;
+    border: 1px solid #ffecc6;
+    box-shadow: 1px 0 1px #eee;
+    opacity: 0;
+    transition: all 0.3s ease;
+    color: #666;
+    font-size: 14px;
+    visibility: hidden;
+}
+
+.rbar-item:hover .rbar-text,
+.rbar-item:hover .rbar-img{
+    right: 31px;
+    opacity: 1;
+    visibility: visible;
+}
+.rbar-arr{
+    width: 0;
+    height: 0;
+    position: absolute;
+    right: -11px;
+    top: 10px;
+    border: 5px solid transparent;
+    border-left-color: #ffecc6;
+}

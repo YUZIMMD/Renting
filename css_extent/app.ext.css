@@ -1,0 +1,455 @@
+html,body,a,p,span,small,h3,h5{
+    font-family: "Microsoft YaHei", 微软雅黑, "MicrosoftJhengHei", 华文细黑, STHeiti, MingLiu;
+    /*font: 14px Arial,"宋体","Helvetica Neue",Helvetica,"Hiragino Sans GB",sans-serif;*/
+}
+
+/*@media (min-width: 1360px){*/
+    /*.container {*/
+        /*width: 1340px;*/
+    /*}*/
+/*}*/
+@media(min-width: 768px)  {
+    @media (max-width: 996px) {
+        .container{
+            width: 970px;
+        }
+    }
+}
+
+
+
+html,body{
+    background-color: #FFF;
+    letter-spacing:1px;
+}
+body > .app{
+    background-color: #FFF;
+}
+
+table th{
+    /*text-align: center;*/
+}
+
+dl > dt, dl > dd{
+    line-height:1.8;
+}
+
+.my-content-body{
+    background-color: #FFF;
+    padding-bottom: 250px;
+    padding-top:0px;
+}
+.app-header{
+    background-color: #FFF;
+}
+
+.nav>li>a:hover, .nav>li>a:focus,.nav>li.open>a,.nav>li.active>a{
+    background-color: rgba(7,118,179,0.95);
+    color: #FFF;
+}
+
+.nav .open>a, .nav .open>a:hover, .nav .open>a:focus{
+    background-color: rgba(7,118,179,0.95);
+    color: #FFF;
+}
+.menu-bar ul.nav>li>a{
+    padding: 10px 28px;
+}
+
+.navbar ul>li a:hover,.navbar ul>li a:focus{
+    color: #FFF;
+    text-decoration: none;
+    background-color: rgba(7,118,179,0.65);
+}
+
+.navbar ul>li.open a:hover,.navbar ul>li.open a:focus{
+    /*color: inherit;*/
+}
+
+.dropdown-menu>li>a {
+    padding: 8px 15px;
+}
+
+/*面包屑区域样式*/
+.breadcrumb{
+    background-color: inherit;
+    margin-bottom: 0px;
+}
+.my-breadcrumb{
+    padding-top: 10px;
+    height: 46px;
+    display: none;
+}
+
+.breadcrumb > li + li:before {
+    content: "> ";
+}
+
+
+.my-content-body a:not(.btn):hover,.breadcrumb a:not(.btn):hover{
+    /*color: #05bbf2;*/
+    /*font-weight: 600;*/
+    /*text-shadow: 1px 1px 1px #58666e !important;*/
+}
+
+.table-responsive{
+    overflow-y: hidden;
+}
+
+@media (max-width: 996px){
+    @media (min-width: 768px) {
+        .container {
+            width: 970px;
+        }
+    }
+}
+
+.panel.panel-default .panel-heading{
+    background-color: #05bbf2;
+    color: #FFF;
+}
+
+
+.app-aside{
+    width: 250px;
+}
+
+.app-content{
+    margin-left: 250px;
+}
+
+aside .navi ul > li.text-sm{
+    background-color: #91d3f3;
+    color: #FFF;
+}
+aside .navi ul > li.text-base{
+    background-color: #05bbf2;
+    color: #FFF;
+}
+aside .navi ul > li.active > a,aside .navi ul > li > a:hover,aside .navi ul > li > a:focus{
+    color: #05bbf2;
+    text-decoration: none;
+    background-color: #eee;
+    font-weight: 600;
+}
+
+aside .navi ul.nav li a{
+    padding: 15px 15px 15px 50px;
+    border-bottom: 1px solid #dee5e7 ;
+}
+aside .navi ul.nav li b.badge{
+    background-color:#97b6c5;
+}
+aside .navi ul.nav li > span{
+    display: block;
+    padding: 10px 15px;
+}
+
+/*解决modal窗口抖动的问题*/
+body.modal-open{
+    overflow: auto !important;
+    padding-right: 0px!important;
+}
+
+@media (min-width: 1200px) {
+    .modal-xl {
+        width: 1170px;
+    }
+}
+
+/* 轮播去掉切换阴影 */
+.carousel-control.left,.carousel-control.right{
+    background-image:none;
+}
+
+.menu-bar{
+    border-bottom: 1px solid #e5e5e5;
+}
+.menu-bar .input-group{
+    width: 100%;;
+}
+.menu-bar .navbar-nav > li{
+    padding: 0px 5px;
+}
+.menu-bar .navbar-nav > li.active,.menu-bar .navbar-nav > li:hover{
+    text-shadow: 1px 1px 1px #d7e4f3 !important;
+    /*font-weight: 600;*/
+}
+
+.menu-bar.menu-bar-fixed{
+    margin-top: 59px;
+}
+.app-menu-bar{
+    /*margin-top:-10px;*/
+}
+.menu-bar-fixed .app-menu-bar{
+    position: fixed;
+    top: 0px;
+    margin-top:0px;
+    z-index: 999;
+    width: 100%;
+    opacity: 0.95;
+}
+.menu-bar .search-category-left{
+    display: none;
+}
+.menu-bar .search-category-top{
+    display:block;
+}
+.menu-bar-fixed .search-category-left{
+    display: inline;
+}
+.menu-bar-fixed .search-category-top{
+    display: none;
+}
+
+.menu-bar .menu-bar-input{
+    width: 100%;
+    display: inline;
+}
+.menu-bar-fixed .menu-bar-input{
+    display: table-cell;
+}
+
+/*.menu-bar .nav > li > a{*/
+    /*line-height: 38px;*/
+    /*padding: 15px 15px;*/
+    /*display: inline-block;*/
+/*}*/
+
+.menu-bar .nav > li > a:hover{
+    /*font-weight: 600;*/
+    /*color: #05bbf2;*/
+}
+
+.menu-bar ul.nav-tabs{
+    border-bottom: 0;
+}
+
+.index-logo{
+    padding-top: 26px;
+    margin-left: 15px;
+}
+
+.bg-info {
+    color: #ffffff;
+    background-color: rgba(7,118,179,0.9);
+}
+
+.menu-bar .nav-tabs>li.active>a{
+    background-color: #F5A301;
+    color: #fff;
+    cursor: default;
+    border: 1px solid #F5A301;
+}
+
+.menu-bar .item-right{
+    margin-left: 220px
+}
+.menu-bar .item-left{
+    width: 185px;float: left;
+}
+
+header .top-bg{
+    border-top: 5px solid rgb(7,118,179);
+    background: url("../images/top_bg.png") right no-repeat;
+    height: 120px;
+}
+.menu-bar .menu-bg{
+    border-top: 3px solid rgb(7,118,179);
+}
+
+.wizard {
+    font-size: 14px;
+    padding: 0;
+    background-color: #f7f8f9;
+    border-bottom: 1px solid #e0e4e8;
+}
+
+.wizard .badge {
+    margin-right: 4px;
+}
+
+.wizard .badge-info {
+    background-color: #5191d1;
+}
+
+.wizard .badge-success {
+    background-color: #3fcf7f;
+}
+
+.wizard ul li.complete,.wizard ul li.complete:hover {
+    cursor: pointer;
+    background: #f1f5f9;
+}
+
+.wizard ul li.complete:after {
+    border-left-color: #f1f5f9;
+}
+
+.wizard ul {
+    padding: 0;
+    margin: 0;
+    list-style: none outside none;
+}
+
+.wizard ul li {
+    position: relative;
+    float: left;
+    padding: 0 15px 0 25px;
+    margin: 0;
+    color: #999999;
+    cursor: default;
+    height: 40px;
+    line-height: 40px;
+}
+
+.wizard.wizard-vertical {
+    float: left;
+    border-bottom: none
+}
+
+.wizard.wizard-vertical+.step-content {
+    zoom: 1;
+    overflow: hidden;
+    padding-left: 40px
+}
+
+.wizard.wizard-vertical ul li {
+    position: relative;
+    float: none;
+    border-bottom: 1px solid #e0e4e8;
+    padding-left: 15px;
+}
+
+.wizard.wizard-vertical ul li:last-child {
+}
+
+.wizard ul li:first-child {
+    padding-left: 15px;
+    border-radius: 4px 0 0 0;
+}
+
+.wizard .actions {
+    float: right;
+    margin: 8px 10px 0 0;
+}
+
+.wizard ul li:before,.wizard ul li:after {
+    content: "";
+    position: absolute;
+    top: -1px;
+    bottom: -1px;
+    right: -10px;
+    border: 20px solid transparent;
+    border-right: 0;
+    border-left: 10px solid #e0e4e8;
+    z-index: 1;
+}
+
+.wizard ul li:after {
+    right: -9px;
+    border-left-color: #f7f8f9;
+    z-index: 2;
+}
+
+.wizard ul li.active {
+    color: #3a87ad;
+    background: #fff;
+}
+
+.wizard ul li.active:after {
+    border-left-color: #fff;
+}
+
+.step-content {
+    padding: 15px;
+}
+
+.step-content .step-pane {
+    display: none;
+}
+
+.step-content .step-pane.active {
+    display: inherit;
+}
+.b-b-info{
+    border-bottom: 2px solid #1F83BA;
+}
+/*选项卡样式的调整*/
+#Tab.nav-tabs {border-bottom: 1px solid #2f8cff !important;}
+#Tab> li > a{border: 0 solid transparent !important;}
+#Tab > li.active > a, #Tab > li.active > a:hover, #Tab> li.active > a:focus{
+    color: #2f8cff !important;
+    border: 1px solid #2f8cff !important;
+    border-bottom-color: transparent !important;
+}
+/*导入导出、打印按钮样式*/
+.report{
+    position: relative;
+}
+.report .btn-group{
+    position: absolute;
+    top: 106px;
+    right: 20px;
+}
+.edit-group caption{
+    margin-top: 36px;
+}
+.btn-2f,.btn-2f:hover,.btn-2f:active,.btn-2f:focus{
+    background: #2F8CFF;
+    padding: 3px 10px;
+    color: #fff;
+}
+/*表格样式的设置*/
+.tab-pane .tab-cap{
+    line-height: 36px;
+    font-size:16px;
+    font-weight: bold;
+    padding: 0;
+    text-align: center;
+}
+#table_data th,#table_data td{
+    font-size: 12px;
+    line-height: 36px;
+    padding: 0 5px;
+    vertical-align: middle;
+}
+#table_data input{
+    border: none;
+    padding: 0;
+}
+.tab-base-info>th{
+    font-weight: normal;
+}
+#table_data .tab-head>th{
+    text-align: center;
+    background: #eee;
+    border-color: #ddd;
+}
+#table_data .tab-pane td input{
+    text-align: center;
+}
+#table_data .tab-pane tfoot td{
+    font-weight: bold;
+}
+/*上一步和下一步按钮*/
+.prev-step,.prev-step:hover{
+    width: 108px;
+    background: #7ECEF4;
+    color: #fff;
+    margin-right: 20px;
+}
+.next-step{
+    width: 108px;
+}
+.next-step.disable,.next-step.disable:active{
+    background: #cdcdcd;
+    cursor: not-allowed;
+    box-shadow: none;
+}
+.next-step.active,.next-step.active:hover{
+    background: #2f8cff;
+    color: #fff;
+    cursor: pointer;
+}

@@ -1,0 +1,27 @@
+/* CSS Document */
+*{
+	font-size:16px;
+	padding:0px;
+	font-family:"微软雅黑";
+	}
+a{
+	outline-style:none;
+	text-decoration:none;
+	color:#000;
+	}
+a:link {
+	FONT-SIZE:16px;
+    COLOR:#000000; 
+	TEXT-DECORATION:None}
+a:visited {
+	FONT-SIZE:16px; 
+	COLOR:#800000; 
+	TEXT-DECORATION:None}
+a:active {
+	FONT-SIZE:16px;
+    COLOR:#0000FF; 
+	TEXT-DECORATION:None}
+a:hover {
+	FONT-SIZE:16px; 
+    COLOR:#FF0000; 
+	TEXT-DECORATION:None}
